@@ -11,7 +11,11 @@ fn main(){
 	let dq: f64 = 3.0;
 	let aq: f64 = 1.0;
 
+	let sum = (t * tq) + (m * mq) + (h * hq) + (d * dq) + (a * aq);
+
 	let avg = ((t * tq) + (m * mq) + (h * hq) + (d * dq) + (a * aq))/(tq + mq + hq + dq + aq); // average
+
+	println!("The total sum of sales is {}", sum);
 
 	println!("The average of the total amount of sales is {}", avg);
 }
