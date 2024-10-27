@@ -5,9 +5,11 @@ fn main() {
 
 	let a = p * (1.0 - (r/100.0)).powf(t) ;
 
+	let dep = p - a;
 
 
-	println!("The value of the television after {} years is {}",t,a);
+
+	println!("The value of the television after {} years is {}",t,dep);
 	
 }
 	
